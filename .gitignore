@@ -1,0 +1,28 @@
+# Secrets and keys
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Notebooks and checkpoints
+*.ipynb
+.ipynb_checkpoints/
+
+# Databases (never commit these)
+*.db
+*.sqlite
+*.sqlite3
+
+# Private documents and scratch work
+private/
+*.pdf
+
+# Editor and system files
+.vscode/
+.DS_Store
+Thumbs.db
+~$*.xlsx
+*.log
